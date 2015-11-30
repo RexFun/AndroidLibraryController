@@ -1,14 +1,12 @@
 package com.rexfun.androidlibrarycontroller;
 
-import com.rexfun.library.httplib.HttpActionObj;
-import com.rexfun.library.httplib.HttpResultObj;
-import com.rexfun.library.httplib.HttpUtil;
-
+import com.rexfun.androidlibraryhttp.HttpActionObj;
+import com.rexfun.androidlibraryhttp.HttpResultObj;
+import com.rexfun.androidlibraryhttp.HttpUtil;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
-
 
 public abstract class BaseWebController
 {

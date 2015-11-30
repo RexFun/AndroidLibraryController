@@ -25,8 +25,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
-    //compile 'com.rexfun.androidlibraryhttp:httplib:1.0.0'
-    compile 'com.rexfun.library:httplib:1.0.1'
+    compile 'com.rexfun.androidlibraryhttp:httplib:1.0.0'
 }
 
 def siteUrl = 'https://github.com/rexfun/AndroidLibraryController'      // 项目的主页
